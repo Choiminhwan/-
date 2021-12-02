@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "최민환"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n어두운 초록색 엣지 : 부자관계\n\u003c/p\u003e\n\n\u003cp\u003e\n분홍색 엣지 : 부부관계\n\u003c/p\u003e\n\n\u003cp\u003e\n노란색 노드 : 언론, 방송, 광고 관련 인물\n\u003c/p\u003e\n\n\u003cp\u003e\n남색 노드 : 정치 관련 인물\n\u003c/p\u003e\n\n\u003cp\u003e\n연두색 노드 : 교육(교수, 유명 대학 요직) 관련 인물\n\u003c/p\u003e\n\n\u003cp\u003e\n보라색 노드 : 법률(변호사, 판사 등) 관련 인물\n\u003c/p\u003e\n\n\u003cp\u003e\n연한 하늘색 노드 : 조사 그룹 외의 기업 인물\n\u003c/p\u003e\n\n\u003cp\u003e\n진한 민트색 노드 : 의료 관련 인물\n\u003c/p\u003e",
+    "intro": "범삼성가, 범한화가, 범SK가, 범LG가, 범롯데가, 범현대가의 혈연관계를 간단하게 시각화했습니다.",
+    "title": "재벌 그룹의 혈연관계"
+  },
+  "legend": {
+    "edgeLabel": "혈연관계",
+    "colorLabel": "Class",
+    "nodeLabel": "인물"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "type",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "image"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
